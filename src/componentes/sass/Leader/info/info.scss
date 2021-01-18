@@ -1,0 +1,30 @@
+.leader__info{
+    height: 300px;
+    background-color: $white;
+    padding: 3rem 1.5rem 0;
+    &__title{
+        @include font(2.3rem,300,$black);
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    &__paragraph{
+        font-size: 1rem;
+        color: $darkGray;
+        text-align: center;
+        line-height: 150%;
+    }
+    @media (min-width:51.2rem) {
+        width: 555px;
+        padding: 6rem 0 0 6rem;
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        right: 11rem;
+        &__title,&__paragraph{
+            text-align: left;
+        }
+        &__title{
+            font-size: 3rem;
+        }
+    }
+}

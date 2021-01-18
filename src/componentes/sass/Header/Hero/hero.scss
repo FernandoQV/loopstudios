@@ -1,0 +1,12 @@
+.hero{
+    padding: 1.5rem;
+    border: 2px solid $white;
+    max-width: 650px;
+    &__title{
+        @include font(2.8rem,300,$white,130%);
+        @media (min-width:768px) {
+            font-size: 3.7rem;
+        }
+    }
+    
+}

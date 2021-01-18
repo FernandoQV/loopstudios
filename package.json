@@ -1,0 +1,15 @@
+{
+  "name": "loopstudios",
+  "version": "1.0.0",
+  "description": "inico de proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass --watch ./src/componentes/sass/index.scss ./src/componentes/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.32.4"
+  }
+}

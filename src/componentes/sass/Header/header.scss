@@ -1,0 +1,13 @@
+.header{
+    background-image: url('../../../../images/mobile/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 1.5rem 0;
+    height: 650px;
+    @media (min-width:51.2rem) {
+        background-image: url('../../../../images/desktop/image-hero.jpg');
+        padding: 4.33rem 11rem;
+    }
+}
+@import './Nav/nav',
+        './Hero/hero'

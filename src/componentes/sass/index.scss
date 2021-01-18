@@ -1,0 +1,9 @@
+/* estilos globales */
+@import './Global/index';
+/* variables,mixin,funciones,etc */
+@import './Variables/variables',
+        './assets/mixins/flex',
+        './assets/mixins/font.scss';
+        /* componenetes */
+        @import './Header/header';
+                //'./Leader/leader';

@@ -1,0 +1,7 @@
+@mixin font($size:1rem,$weigth:700,$color:red,$lHeigth:130%,$transform:uppercase) {
+    font-size: $size;
+    font-weight: $weigth;
+    color: $color;
+    line-height: $lHeigth;
+    text-transform: $transform;
+}

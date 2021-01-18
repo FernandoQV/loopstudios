@@ -1,0 +1,151 @@
+/* estilos globales */
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+/* font-family: 'Alata', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+/* font-family: 'Josefin Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Alata", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* variables,mixin,funciones,etc */
+/* componenetes */
+.header {
+  background-image: url("../../../../images/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 1.5rem 0;
+  height: 650px;
+}
+@media (min-width: 768px) {
+  .header {
+    background-image: url("../../../../images/desktop/image-hero.jpg");
+    padding: 4.33rem 11rem;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 11rem;
+}
+.nav__logo {
+  width: 200px;
+  object-fit: cover;
+}
+.nav__menu {
+  display: none;
+}
+.nav__menu a {
+  color: white;
+}
+@media (min-width: 768px) {
+  .nav__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .nav__icon-hamburguesa {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .nav {
+    margin-bottom: 8.66rem;
+  }
+}
+
+.hero {
+  padding: 1.5rem;
+  border: 2px solid white;
+  max-width: 650px;
+}
+.hero__title {
+  font-size: 2.8rem;
+  font-weight: 300;
+  color: white;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: 3.7rem;
+  }
+}
+
+.leader {
+  width: 100%;
+  padding: 6.67rem 1.5rem;
+  position: relative;
+  z-index: -1;
+}
+.leader__image {
+  max-width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .leader {
+    padding: 11rem 11rem 0;
+    marging-bottom: 12rem;
+  }
+}
+
+.leader__info {
+  height: 300px;
+  background-color: white;
+  padding: 3rem 1.5rem 0;
+}
+.leader__info__title {
+  font-size: 2.3rem;
+  font-weight: 300;
+  color: black;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.leader__info__paragraph {
+  font-size: 1rem;
+  color: #8c8c8c;
+  text-align: center;
+  line-height: 150%;
+}
+@media (min-width: 768px) {
+  .leader__info {
+    width: 555px;
+    padding: 6rem 0 0 6rem;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 11rem;
+  }
+  .leader__info__title, .leader__info__paragraph {
+    text-align: left;
+  }
+  .leader__info__title {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

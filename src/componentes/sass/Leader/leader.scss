@@ -1,0 +1,18 @@
+.leader{
+    width: 100%;
+    padding: 6.67rem 1.5rem;
+    position: relative;
+    z-index: -1;
+    &__image{
+        max-width: 100%;
+        object-fit: cover;
+    }
+    @media (min-width:51.2rem) {
+        padding: 11rem 11rem 0;
+        marging-bottom: 12rem;
+        &__image{
+
+        }
+    }
+}
+@import './info/info'
