@@ -5,5 +5,5 @@
         './assets/mixins/flex',
         './assets/mixins/font.scss';
         /* componenetes */
-        @import './Header/header';
-                //'./Leader/leader';
+        @import './Header/header',
+                './Leader/leader';
